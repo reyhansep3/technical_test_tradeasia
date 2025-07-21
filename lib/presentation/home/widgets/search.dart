@@ -17,7 +17,6 @@ class _TextFieldsState extends State<TextFields> {
         controller: widget.controller,
         minLines: 1,
         maxLines: 1,
-        
         decoration: InputDecoration(
           hintText: "Dipentene",
           prefixIcon: Icon(Icons.search),
@@ -25,7 +24,6 @@ class _TextFieldsState extends State<TextFields> {
           counterText: '',
           hintStyle: GoogleFonts.poppins(color: Colors.grey),
           fillColor: AppColor.white,
-         
           contentPadding: const EdgeInsets.all(16)
         )
       );

@@ -3,7 +3,6 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:technical_test/presentation/common/appColor.dart';
 
-
 class Buttons extends StatelessWidget {
   Color color;
   String? text;

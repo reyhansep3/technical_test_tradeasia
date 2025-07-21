@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:technical_test/presentation/detail/widget/detail_card.dart';
 
 class DetailScreen extends StatefulWidget {
   const DetailScreen({super.key});
@@ -13,7 +14,12 @@ class _DetailScreenState extends State<DetailScreen> {
     return Scaffold(
       body: Stack(
         children: [
-          Image.asset("assets/image/backgroundImage.png")
+          Image.asset("assets/image/backgroundImage.png"),
+          Column(
+            children: [
+              DetailCard()
+            ],
+          )
         ],
       ),
     );

@@ -20,23 +20,8 @@ class _AppBannerState extends State<AppBanner> {
           borderRadius: BorderRadius.circular(20)
         ),
         width: width,
-        child: Image.asset("assets/image/Banner.png", fit: BoxFit.cover,)),
+        child: Image.asset("assets/image/Banner.png", fit: BoxFit.fill,)),
     );
-    // return Padding(
-    //   padding: const EdgeInsets.all(30.0),
-    //   child: Center(
-    //     child: Column(
-    //       children: [
-    //         Center(
-    //           child: Text("Our Top Products", style: GoogleFonts.poppins(
-    //             color: AppColor.white
-    //           ),),
-    //         ),
-    //         SizedBox(height:height*0.1,),
-    //         Text("We are dedicated to delivering the best service to our customers by offering required quality chemical products"),
-    //       ],
-    //     ),
-    //   ),
-    // );
+
   }
 }
